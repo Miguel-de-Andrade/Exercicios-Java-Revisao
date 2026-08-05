@@ -3,12 +3,12 @@ import javax.swing.*;
 public class ex_9 {
     public static void main(String[] args) {
 
-        Double peso = Double.parseDouble ( JOptionPane.showInputDialog(null,"Digite o seu peso em kg:"));
-        Double altura = Double.parseDouble ( JOptionPane.showInputDialog(null,"Digite a sua altura em m:"));
+        double peso = Double.parseDouble ( JOptionPane.showInputDialog(null,"Digite o seu peso em kg:"));
+        double altura = Double.parseDouble ( JOptionPane.showInputDialog(null,"Digite a sua altura em m:"));
 
-        Double imc = peso/(altura * altura);
+        double imc = peso/(altura * altura);
 
-        String condicao = "";
+        String condicao;
 
         if (imc < 18.5){
             condicao = "Abaixo do peso";

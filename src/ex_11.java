@@ -5,7 +5,7 @@ public class ex_11 {
 
         double n1,n2,n3,n4;
 
-        String condicao = "";
+        String condicao;
 
         String nome = JOptionPane.showInputDialog(null,     "Qual é o seu nome?");
 

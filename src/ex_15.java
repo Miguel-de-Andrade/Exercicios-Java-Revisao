@@ -7,7 +7,7 @@ public class ex_15 {
         double ladoB = Double.parseDouble(JOptionPane.showInputDialog(null, "Digite o lado B do triângulo"));
         double ladoC = Double.parseDouble(JOptionPane.showInputDialog(null, "Digite o lado C do triângulo"));
 
-        String tipo = "";
+        String tipo;
 
         if ((ladoA + ladoB > ladoC) && (ladoA + ladoC > ladoB) && (ladoB + ladoC > ladoA)){
             if (ladoA == ladoB && ladoB == ladoC){
